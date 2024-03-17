@@ -43,7 +43,7 @@ const Header = () => {
   return (
     <header
       className={`pt-3 pb-4 z-[100] relative ${
-        pathname == "/contact" ? "bg-secondary" : ""
+        pathname == "/" ? "" : "bg-secondary"
       } ${
         isSticky
           ? "sticky top-0 shadow-md transition-all duration-500 bg-secondary text-white"
@@ -59,7 +59,7 @@ const Header = () => {
                   src={
                     pathname == "/" || pathname == "/contact"
                       ? "logo-inverse.webp"
-                      : "/logo-default.webp"
+                      : "logo-inverse.webp"
                   }
                   alt='Logo'
                   className=' w-[100px] '
