@@ -55,14 +55,14 @@ function OurTeam() {
       className='relative bg-white h-full mx-auto container px-4 lg:px-16 xl:px-24 2xl:px-28 py-6 lg:pb-16 '
       id='our-team'
     >
-      <div className='mx-auto z-50 lg:py-16'>
+      <div className='mx-auto z-50 lg:py-16 relative'>
         <div className='mx-auto text-center pb-8 '>
           <p className='text-gray-500 mb-2 '>OUR TEAM</p>
           <h2 className='mb-4 text-4xl xl:text-5xl tracking-tight font-bold text-gray-900'>
             Meet our professionals
           </h2>
         </div>
-        <div className='grid gap-8 md:grid-cols-2'>
+        <div className='grid gap-8 md:grid-cols-2  z-50'>
           {team?.map((r, index) => {
             return (
               <div className='items-center sm:flex' key={index}>

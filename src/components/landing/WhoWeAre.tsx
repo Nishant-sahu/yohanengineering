@@ -20,7 +20,7 @@ function WhoWeAre() {
         <img
           src={currentImage?.image}
           alt={currentImage?.title}
-          className='lg:h-[600px] '
+          className='lg:h-[540px] lg:pl-20'
         />
       </div>
 
