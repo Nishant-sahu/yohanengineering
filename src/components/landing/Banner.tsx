@@ -15,7 +15,7 @@ function Banner() {
     >
       <div className='h-full mx-auto container min-h-[calc(100vh+64px)] px-4 lg:px-16 xl:px-24 2xl:px-28 flex gap-10 flex-col justify-center'>
         <div className='w-full  max-w-lg flex-col flex gap-10'>
-          <h2 className=' mb-4 text-4xl md:text-5xl tracking-tight font-bold text-white'>
+          <h2 className='pt-16 mb-4 text-4xl md:text-5xl tracking-tight font-bold text-white'>
             {BANNER.heading1}
             <br />
             {BANNER.heading2}
