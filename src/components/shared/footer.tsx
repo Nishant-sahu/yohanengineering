@@ -138,7 +138,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='mt-12 flex flex-col-reverse items-center justify-between space-y-3 border-t border-gray-700 pb-1 pt-4 text-[#94A3B8] md:mb-0 md:pt-8 lg:mb-6 lg:flex-row lg:space-y-0'>
-            <p className='text-base font-bold '>
+            <p className='text-base font-bold text-center'>
               © {getFullYear} , All rights reserved by{" "}
               <a
                 href='/'
