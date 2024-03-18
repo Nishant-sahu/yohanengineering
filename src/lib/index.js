@@ -1,8 +1,6 @@
-
-
 export const submitFormData = async (payload) => {
   const SCRIPT_URL =
-    "";
+    "https://script.google.com/macros/s/AKfycbxANiNjqvefzGy-7pk7OFl85Em1DPhnYdbQV32VuY3tQUpvxu1A3JVm34c8o9D1q_jF/exec";
 
   const scriptURL = SCRIPT_URL;
 
@@ -22,18 +20,15 @@ export const submitFormData = async (payload) => {
     });
 
     if (response.ok) {
-      console.log("Form submitted successfully");
-
-      
+      console.log("Form submitted successfully", response);
     } else {
       console.error("Error submitting form");
-      
     }
 
     return response;
   } catch (error) {
     console.error("Error submitting form", error);
-    
+    console.log(error, "error");
     throw error;
   }
 };

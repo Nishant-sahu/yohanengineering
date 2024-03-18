@@ -36,9 +36,9 @@ function WhatWeDo() {
                   </div>
                   <div>
                     <h2 className='text-xl font-bold'>{r?.title}</h2>
-                    <h4 className='md:text-lg text-gray-500 group-hover:text-white'>
+                    {/* <h4 className='md:text-lg text-gray-500 group-hover:text-white'>
                       {r?.subtitle}
-                    </h4>
+                    </h4> */}
                   </div>
                 </div>
               </div>

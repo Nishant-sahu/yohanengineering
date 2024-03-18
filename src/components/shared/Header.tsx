@@ -42,13 +42,16 @@ const Header = () => {
 
   return (
     <header
-      className={`pt-3 pb-4 z-[100] relative ${
+      className={`pt-3 pb-4 z-[100] relative text-white ${
         pathname == "/" ? "" : "bg-secondary"
-      } ${
-        isSticky
-          ? "sticky top-0 shadow-md transition-all duration-500 bg-secondary text-white"
-          : "text-white"
-      }`}
+      } `}
+      // className={`pt-3 pb-4 z-[100] relative text-white ${
+      //   pathname == "/" ? "" : "bg-secondary"
+      // } ${
+      //   isSticky
+      //     ? "sticky top-0 shadow-md transition-all duration-500 bg-secondary text-white"
+      //     : "text-white"
+      // }`}
     >
       <div className={`container mx-auto  lg:pt-2 lg:px-28 `}>
         <div className='hidden items-center justify-between lg:flex'>
@@ -100,7 +103,7 @@ const Header = () => {
         <div className=' font-medium text-sm xl:font-semibold lg:text-xl'>
           <Link href='/' className='flex items-center space-x-2'>
             <img
-              src={pathname == "/" ? "logo-inverse.webp" : "/logo-default.webp"}
+              src={pathname == "/" ? "logo-inverse.webp" : "logo-inverse.webp"}
               alt='Logo'
               className=' w-[100px] '
             />

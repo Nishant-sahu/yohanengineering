@@ -89,7 +89,7 @@ const ContactForm = () => {
     console.log(payload, "payload");
 
     try {
-      // await submitFormData(payload);
+      await submitFormData(payload);
       router.push("/thank-you");
     } catch (error) {
       // console.log(error, "err");

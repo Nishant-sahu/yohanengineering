@@ -89,13 +89,13 @@ Maintenance Services
 
 export const OUR_SERVICES = [
   {
-    title: `Operation & Maintenance Services`,
+    title: `Operation & Maintenance `,
     description: `Our operation and maintenance services encompass mechanical operations for various plants, including routine maintenance, major overhauls, and more. We specialize in power plants, refineries, and fertilizer plants, ensuring optimal performance and longevity.`,
     image: `https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-95-copyright-890x664.jpg`,
     slug: `https://api.whatsapp.com/send/?phone=919407085519&text&type=phone_number&app_absent=0`,
   },
   {
-    title: `Fabrication & Erection Solutions`,
+    title: `Fabrication & Erection `,
     description: `We provide expert services in structural fabrication and piping, with a focus on tanks, vessels, and chimney fabrication. Our structural erection services are tailored to meet the needs of challenging environments, ensuring safety and precision.`,
     image: `https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-95-copyright-890x664.jpg`,
     slug: `https://api.whatsapp.com/send/?phone=919407085519&text&type=phone_number&app_absent=0`,

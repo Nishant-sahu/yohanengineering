@@ -3,7 +3,7 @@ import Link from "next/link";
 const ThankYou = () => {
   return (
     <>
-      <div className='flex items-center justify-center h-screen'>
+      <div className='flex items-center justify-center h-screen px-4'>
         <div className='p-1 rounded shadow-lg bg-gradient-to-r from-purple-500 via-green-500 to-blue-500'>
           <div className='flex flex-col items-center p-4 space-y-2 bg-white'>
             <svg
@@ -23,9 +23,11 @@ const ThankYou = () => {
             <h1 className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500'>
               Thank You !
             </h1>
-            <p>We received your email . Our team will contact you soon !</p>
+            <p className='text-center'>
+              We received your email . Our team will contact you soon !
+            </p>
             <Link href='/'>
-              <button className='lg:px-12 py-2  rounded bg-primary text-white  font-semibold'>
+              <button className='px-3 lg:px-12 py-2  rounded bg-gradient-to-r from-blue-500 to-purple-500 text-white  font-semibold'>
                 Back Home
               </button>
             </Link>
