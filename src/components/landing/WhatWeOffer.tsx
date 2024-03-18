@@ -10,33 +10,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { OUR_SERVICES } from "@/constant";
 
-const what_we_are = [
-  {
-    img: "https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-95-copyright-890x664.jpg",
-    title: "Construction management",
-    description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
-  },
-  {
-    img: "https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-95-copyright-890x664.jpg",
-    title: "Construction management",
-    description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
-  },
-  {
-    img: "https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-95-copyright-890x664.jpg",
-    title: "Construction management",
-    description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
-  },
-  {
-    img: "https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-95-copyright-890x664.jpg",
-    title: "Construction management",
-    description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
-  },
-];
-
 function WhatWeOffer() {
   return (
     <section className='relative bg-[#F9F9F9]' id='services'>
@@ -81,7 +54,7 @@ function WhatWeOffer() {
             modules={[Pagination]}
             className='mySwiper'
           >
-            {OUR_SERVICES?.map((r, index) => (
+            {OUR_SERVICES?.map((r: any, index) => (
               <SwiperSlide className='group' key={index}>
                 <div className='group bg-white' key={index}>
                   <div>
@@ -93,15 +66,35 @@ function WhatWeOffer() {
                   </div>
                   <div className='p-5 text-center'>
                     <h3 className='text-xl font-bold tracking-tight text-gray-900'>
-                      <a href='#'>{r?.title}</a>
+                      <a
+                        href={`${r?.slug}&text=${encodeURIComponent(
+                          `Hi 👋 How are you?\n\nI want to know more about this "${r?.title}" service .`
+                        )}`}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        {r?.title}
+                      </a>
                     </h3>
                     <p className='mt-3 mb-4 text-gray-600'>{r?.description}</p>
                     <div className='flex space-x-4 sm:mt-0 group-hover:text-primary w-fit mx-auto items-center'>
-                      <span className='w-0 overflow-hidden group-hover:w-fit transition-all'>
-                        Know More
-                      </span>
                       <a
-                        href='#'
+                        href={`${r?.slug}&text=${encodeURIComponent(
+                          `Hi 👋 How are you?\n\nI want to know more about this  "${r?.title}" service .`
+                        )}`}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        <span className='w-0 overflow-hidden group-hover:w-fit transition-all'>
+                          Know More
+                        </span>
+                      </a>
+                      <a
+                        href={`${r?.slug}&text=${encodeURIComponent(
+                          `Hi 👋 How are you?\n\nI want to know more about this  "${r?.title}" service .`
+                        )}`}
+                        target='_blank'
+                        rel='noopener noreferrer'
                         className='text-gray-500 border h-10 w-10 flex items-center justify-center rounded-full transition group-hover:text-primary'
                       >
                         <FaArrowRightLong />
@@ -113,8 +106,6 @@ function WhatWeOffer() {
             ))}
           </Swiper>
         </div>
-
-        
       </div>
       <div className='absolute bottom-0 left-0'>
         <img src='/constraction-decor-image-4.png' alt='' />

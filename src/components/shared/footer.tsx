@@ -68,7 +68,7 @@ const Footer = () => {
                     <span className=' font-normal'>
                       <Link
                         className='text-[#A3A9B9] transition-colors hover:text-blue-500'
-                        href='/contact-us'
+                        href='/contact'
                       >
                         Contact us
                       </Link>

@@ -92,25 +92,25 @@ export const OUR_SERVICES = [
     title: `Operation & Maintenance Services`,
     description: `Our operation and maintenance services encompass mechanical operations for various plants, including routine maintenance, major overhauls, and more. We specialize in power plants, refineries, and fertilizer plants, ensuring optimal performance and longevity.`,
     image: `https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-95-copyright-890x664.jpg`,
-    slug: ``,
+    slug: `https://api.whatsapp.com/send/?phone=919407085519&text&type=phone_number&app_absent=0`,
   },
   {
     title: `Fabrication & Erection Solutions`,
     description: `We provide expert services in structural fabrication and piping, with a focus on tanks, vessels, and chimney fabrication. Our structural erection services are tailored to meet the needs of challenging environments, ensuring safety and precision.`,
     image: `https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-95-copyright-890x664.jpg`,
-    slug: ``,
+    slug: `https://api.whatsapp.com/send/?phone=919407085519&text&type=phone_number&app_absent=0`,
   },
   {
     title: `Housekeeping Services`,
     description: `Our housekeeping services are designed to maintain cleanliness and safety in industrial environments. We offer comprehensive solutions for all types of facilities, ensuring a clean and organized workspace for optimal productivity.`,
     image: `https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-95-copyright-890x664.jpg`,
-    slug: ``,
+    slug: `https://api.whatsapp.com/send/?phone=919407085519&text&type=phone_number&app_absent=0`,
   },
   {
     title: `Solar Power Plant Solutions`,
     description: `From design to installation and maintenance, we offer complete solutions for solar power plants. Our services focus on providing sustainable energy solutions for a greener future, ensuring efficient and reliable solar power generation.`,
     image: `https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-95-copyright-890x664.jpg`,
-    slug: ``,
+    slug: `https://api.whatsapp.com/send/?phone=919407085519&text&type=phone_number&app_absent=0`,
   },
 ];
 
