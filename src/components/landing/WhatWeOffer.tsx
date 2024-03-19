@@ -29,7 +29,7 @@ function WhatWeOffer() {
           <Swiper
             breakpoints={{
               640: {
-                slidesPerView: 2,
+                slidesPerView: 1,
               },
               768: {
                 slidesPerView: 2,
@@ -41,7 +41,7 @@ function WhatWeOffer() {
                 slidesPerView: 3,
               },
             }}
-            slidesPerGroup={3}
+            slidesPerGroup={1}
             loop={true}
             spaceBetween={30}
             pagination={{ clickable: true }}

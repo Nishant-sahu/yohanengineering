@@ -13,7 +13,7 @@ function WhoWeAre() {
   );
   return (
     <section
-      className='bg-white h-full mx-auto container px-4 lg:px-16 xl:px-24 2xl:px-28 my-6 mb-16 flex gap-10 flex-col md:flex-row lg:items-center relative -top-[3.5rem]'
+      className='bg-white h-full mx-auto container px-4 lg:px-16 xl:px-24 2xl:px-28 my-6 mb-16 flex gap-10 flex-col md:flex-row lg:items-center relative -top-[118px] pt-16'
       id='about-us'
     >
       <div className='flex-1 xl:basis-1/2'>
