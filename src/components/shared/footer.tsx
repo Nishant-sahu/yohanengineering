@@ -14,16 +14,16 @@ const Footer = () => {
         <div className='container mx-auto px-4 pb-2 pt-16 sm:px-6 lg:px-28  '>
           <div className='grid grid-cols-1 space-y-10 text-[#94A3B8] md:grid-cols-2 lg:grid-cols-4 lg:space-y-0'>
             <div>
+              <p className=' text-[#A3A9B9]'>{BASIC_INFO.metaDescription}</p>
               <div>
                 <Link href='/' className='flex items-center space-x-2 mb-4'>
                   <img
                     src={BASIC_INFO.logo}
                     alt={BASIC_INFO.name}
-                    className='  '
+                    className='w-[110px]'
                   />
                 </Link>
               </div>
-              <p className=' text-[#A3A9B9]'>{BASIC_INFO.metaDescription}</p>
             </div>
             <div>
               <div className='flex flex-col gap-y-4 lg:pl-12'>

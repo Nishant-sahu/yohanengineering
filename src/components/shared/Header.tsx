@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import MobileMenu from "./MobileMenu";
+import { BASIC_INFO } from "@/constant";
 
 const Header = () => {
   const [open, setToggle] = useState(false);
@@ -45,13 +46,6 @@ const Header = () => {
       className={`pt-3 pb-4 z-[100] relative text-white ${
         pathname == "/" ? "" : "bg-secondary"
       } `}
-      // className={`pt-3 pb-4 z-[100] relative text-white ${
-      //   pathname == "/" ? "" : "bg-secondary"
-      // } ${
-      //   isSticky
-      //     ? "sticky top-0 shadow-md transition-all duration-500 bg-secondary text-white"
-      //     : "text-white"
-      // }`}
     >
       <div className={`container mx-auto  lg:pt-2 lg:px-28 `}>
         <div className='hidden items-center justify-between lg:flex'>
@@ -61,11 +55,11 @@ const Header = () => {
                 <img
                   src={
                     pathname == "/" || pathname == "/contact"
-                      ? "logo-inverse.webp"
-                      : "logo-inverse.webp"
+                      ? `${BASIC_INFO.logo}`
+                      : `${BASIC_INFO.logo}`
                   }
                   alt='Logo'
-                  className=' w-[100px] '
+                  className=' w-[70px] '
                 />
               </Link>
             </div>
@@ -103,9 +97,11 @@ const Header = () => {
         <div className=' font-medium text-sm xl:font-semibold lg:text-xl'>
           <Link href='/' className='flex items-center space-x-2'>
             <img
-              src={pathname == "/" ? "logo-inverse.webp" : "logo-inverse.webp"}
+              src={
+                pathname == "/" ? `${BASIC_INFO.logo}` : `${BASIC_INFO.logo}`
+              }
               alt='Logo'
-              className=' w-[100px] '
+              className=' w-[68px] '
             />
           </Link>
         </div>

@@ -1,7 +1,7 @@
 export const BASIC_INFO = {
   name: "Yohan Engineering",
   metaDescription: `At Yohan Engineering & Maintenance Work, we specialize in providing comprehensive construction, engineering, and maintenance services for a variety of industries. `,
-  logo: `/logo-inverse.webp`,
+  logo: `https://cdn.flashypanels.com/public/uploads/866d91bb391dd9e482a66a71acc98bb3a731e45662ceada538089.png`,
   email: "contact@xyz.com",
   contact: "+880 1568194230",
   location: `785 15h Street, Office 478

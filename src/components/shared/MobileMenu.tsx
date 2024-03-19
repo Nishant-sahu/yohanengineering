@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import { BASIC_INFO } from "@/constant";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
@@ -36,7 +37,7 @@ const MobileMenu = ({ open, setToggle }: MobileMenuProps) => {
             <div className='text-xl font-semibold '>
               <Link href='/' className='flex items-center space-x-2'>
                 <img
-                  src='/logo-default.webp'
+                  src={`${BASIC_INFO.logo}`}
                   alt='logo'
                   className=' w-[95px]  '
                 />
