@@ -7,11 +7,11 @@ import {
 
 const team = [
   {
-    img: "https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-89-copyright-1228x1536.jpg",
-    name: "Bonnie Green",
-    title: "Construction inspector",
+    img: "https://cdn.flashypanels.com/public/uploads/42200a8f27305cc217dd3f3681feba1bc77121974877e88e91433.jpeg",
+    name: "Mukesh Poonia",
+    title: "Construction Manager",
     description:
-      "Bonnie drives the technical strategy of the flowbite platform and brand.",
+      "Mukesh drive technical strategy 24X7 for branding and marketing",
     social: [
       {
         svg: <RiFacebookFill />,
@@ -28,11 +28,11 @@ const team = [
     ],
   },
   {
-    img: "https://fabrica.ancorathemes.com/wp-content/uploads/2023/02/image-90-copyright-840x1051.jpg",
-    name: "Bonnie Green",
-    title: "Construction inspector",
+    img: "https://cdn.flashypanels.com/public/uploads/55622bafd4a00340322e673e33f682ba13fa1e3113cf0ebc76506.jpeg",
+    name: "Raj",
+    title: "Financial Management",
     description:
-      "Bonnie drives the technical strategy of the flowbite platform and brand.",
+      "Raj drives the financial strategy of the company and projects.",
     social: [
       {
         svg: <RiFacebookFill />,
@@ -68,7 +68,7 @@ function OurTeam() {
               <div className='items-center sm:flex' key={index}>
                 <a href='#' className='flex-1'>
                   <img
-                    className='w-full rounded-none'
+                    className='w-full h-[330px] rounded-none'
                     src={r?.img}
                     alt={r?.name}
                   />

@@ -2,10 +2,9 @@ export const BASIC_INFO = {
   name: "Yohan Engineering",
   metaDescription: `At Yohan Engineering & Maintenance Work, we specialize in providing comprehensive construction, engineering, and maintenance services for a variety of industries. `,
   logo: `https://cdn.flashypanels.com/public/uploads/866d91bb391dd9e482a66a71acc98bb3a731e45662ceada538089.png`,
-  email: "contact@xyz.com",
-  contact: "+880 1568194230",
-  location: `785 15h Street, Office 478
-Berlin, De 81566`,
+  email: "contact@yohanengineering.com",
+  contact: "+91 7073822670",
+  location: `202 Virat nagar Panipat Haryana 132103 India`,
   facebook: "https://www.facebook.com/",
   instagram: "https://www.instagram.com/",
   twitter: "https://www.twitter.com/",
